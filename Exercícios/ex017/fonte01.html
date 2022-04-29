@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in (polegada), px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            /*  shorthand font
+            
+            - font-style > font-weight > font-size > font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium accusantium odio? Quisquam aut, voluptatum dignissimos eum esse commodi. Cumque odit iste doloremque dolor? Architecto ea maxime libero reprehenderit dolorum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi laudantium illum incidunt nulla minus eligendi nihil. Fuga harum hic lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolore enim nihil odio natus qui sed fuga aliquid officia nulla eaque cumque dolorum, deleniti accusamus perspiciatis quisquam, consequuntur vitae quibusdam! saepe maiores possimus, qui veritatis ipsam sed quae eum dolorum ullam!Lorem</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum optio assumenda quisquam numquam architecto voluptatum, culpa inventore, libero voluptatibus tempore suscipit? Non esse itaque, suscipit vero assumenda maxime maiores aliquam.</p>
+    <h2>Substítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum natus nostrum suscipit explicabo a, est earum quae saepe vel ipsa aperiam praesentium omnis repellat quod deserunt autem eius itaque perspiciatis.</p>
+</body>
+</html>
